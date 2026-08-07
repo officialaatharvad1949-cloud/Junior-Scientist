@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width,initial-scale=1'>
+    <title>Modelothon Registration</title>
+    <link rel='stylesheet' href='style.css'>
+</head>
+<body>
+    <div class='container'>
+        <div class='card'>
+            <h1>🏗️ Modelothon Registration</h1>
+            <p>Team Event (Maximum 3 Members)</p>
+            <form id='regForm' novalidate>
+                <!-- Added id='teamName' here -->
+                <label>Team Name<input id='teamName' required></label>
+                <label>Team Size
+                    <select id='teamSize'>
+                        <option value='1'>1</option>
+                        <option value='2'>2</option>
+                        <option value='3' selected>3</option>
+                    </select>
+                </label>
+                <div id='members'></div>
+                <label class='terms'><input type='checkbox' id='agree'> I agree to the rules and regulations.</label>
+                <button type='submit'>Proceed to Payment →</button>
+            </form>
+        </div>
+    </div>
+    <script src='script.js'></script>
+</body>
+</html>
