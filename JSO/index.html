@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Junior Scientist Olympiad Registration</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<div class="card">
+<h1>🏅 Junior Scientist Olympiad</h1>
+<p>Individual Participation</p>
+
+<form id="regForm" novalidate>
+<label>
+    Full Name
+    <input
+        type="text"
+        name="full_name"
+        class="name"
+        required
+    >
+</label>
+
+<label>
+    Phone Number
+    <input
+        type="text"
+        name="phone"
+        class="phone"
+        required
+    >
+</label>
+
+<label>
+    Alternate Phone Number
+    <input
+        type="text"
+        name="alt_phone"
+        class="phone"
+    >
+</label>
+
+<label>
+    Email
+    <input
+        type="email"
+        name="email"
+        class="email"
+        required
+    >
+</label>
+
+<label>
+    School
+    <input
+        type="text"
+        name="school"
+        required
+    >
+</label>
+
+<label>
+    City
+    <input
+        type="text"
+        name="city"
+        required
+    >
+</label>
+
+<label>
+    Class
+    <input
+        type="text"
+        name="student_class"
+        required
+    >
+</label>
+
+<label><input id="agree" type="checkbox"> I agree to the event rules and regulations.</label>
+
+<button type="submit">Proceed to Payment →</button>
+</form>
+</div>
+</div>
+<script src="../common/submitForm.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
