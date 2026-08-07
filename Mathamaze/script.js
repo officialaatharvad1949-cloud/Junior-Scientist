@@ -1,0 +1,4 @@
+submitForm(
+    "regForm",
+    "/mathamaze/register"
+);
